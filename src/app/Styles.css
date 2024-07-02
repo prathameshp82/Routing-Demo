@@ -1,0 +1,186 @@
+.layoutt1 {
+  min-height: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout2 {
+  background: #fbfbff;
+}
+
+.menu1 {
+  background: #fbfbff;
+}
+
+.menu2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fbfbff;
+  margin-bottom: 1rem;
+}
+
+.header {
+  padding: 0;
+  border: none;
+  background: #fbfbff;
+}
+
+.content {
+  margin: 1rem;
+  background: #fbfbff;
+}
+
+.card1,
+.card2{
+  width: 100%;
+  padding: 1rem;
+  height: auto;
+}
+.card3{
+  text-align: center;
+  width: 15rem;
+}
+
+
+.infocircle {
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: right;
+}
+
+.file-exclamation {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  text-align: center;
+  background: #fbfbff;
+  margin: 0;
+}
+
+.msg {
+  font-size: 1.8rem;
+  color: rgb(0, 204, 177);
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.demo-logo-vertical {
+  padding: 1rem;
+}
+
+#img1 {
+  width: 4rem;
+  height: 3rem;
+}
+
+#div1,
+#div10 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#div3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#btn1,
+#btn2 {
+  border: solid 1px black;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  height: 4vmin;
+  width: 16vmin;
+  cursor: pointer;
+}
+#btn2{
+  margin-top: 3rem;
+}
+
+#div4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#para1 {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+#div6 {
+  background: #f8d7da;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  text-align: center;
+}
+
+#div7 {
+  text-align: center;
+  padding: 1rem;
+}
+
+#div8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#div10{
+  margin-top: 2rem;
+}
+#para2 {
+  margin-bottom: 0;
+}
+
+#div9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1100px) {
+  .menu2 {
+    position: relative;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .card2{
+    text-align: center;
+  }
+  .infocircle {
+    margin-left: 1.5rem;
+  }
+  .msg {
+    font-size: 1.5rem;
+    bottom: 1rem;
+    right: 1rem;
+  }
+  #btn1,
+  #btn2 {
+    height: 2rem;
+  }
+  #div8,
+  #div9 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .layout2{
+    height: 116rem;
+  }
+}

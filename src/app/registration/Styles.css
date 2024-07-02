@@ -1,0 +1,151 @@
+.layoutt1 {
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .steps-col{
+    width: 38rem;
+    align-content: center;
+    margin-left: 8rem;
+  }
+  .div-header-heading{
+    margin-top: 5rem; 
+    margin-right: 20rem; 
+  }
+ .btn-back{
+     margin-top: 5rem;
+     margin-left: 8rem ;
+     width: 15rem;
+ }
+  .layout2 {
+    background: #fbfbff;
+  }
+  
+  .menu1 {
+    background: #fbfbff;
+  }
+  
+  .menu2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fbfbff;
+    margin-bottom: 1rem;
+  }
+  
+  .header {
+    padding: 0;
+    border: none;
+    background: #fbfbff;
+    height: 23rem;
+    
+  }
+  
+  .content {
+    margin: 1rem;
+    background: #fbfbff;
+  }
+  .card2{
+    width: 20rem;
+    padding: 0;
+    height: auto;
+  }
+  .card3{                
+    width: 20rem;
+    padding: 0;
+    height: 27rem;
+    align-content: center;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  #plus{
+   font-size: xxx-large;
+  }
+  .footer {
+    text-align: center;
+    background: #fbfbff;
+    margin-top: 5rem;
+  }
+  .msg {
+    font-size: 1.8rem;
+    color: rgb(0, 204, 177);
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+  }
+  
+  .demo-logo-vertical {
+    padding: 1rem;
+  }
+  
+  #img1 {
+    width: 4rem;
+    height: 3rem;
+  }
+  #div1{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  #div6 {
+    background: #f8d7da;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    position: relative;
+  }
+  
+  #div7 {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  #div8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  #para2 {
+    margin-bottom: 0;
+  }
+  
+  #div9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  #heading-id{
+    margin-bottom: 3rem;
+    font-size:x-large;
+  }
+
+  #del-btn{
+    position: absolute;
+     top: 0;
+     right: 0;
+  }
+
+   @media (max-width:1100px) {
+    .div-header-heading {
+        margin-top: 2rem;
+        margin-right: 0;
+      }
+      .btn-back {
+        margin-left: 0;
+        margin-bottom:2rem ;
+      }
+      .menu2 {
+        position: relative;
+        align-items: center;
+      }
+     
+
+  } 
+  @media screen and (min-width: 2560px) {
+    .layout2{
+      height: 125rem;
+    }
+
+  }
